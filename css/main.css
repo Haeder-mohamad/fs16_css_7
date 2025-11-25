@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
 }
 
 
@@ -36,22 +42,29 @@
     text-decoration-color: orange;
     text-decoration-style: solid;
     text-underline-offset: 7px;
+    font-family: "Lato", sans-serif;
 }
 
 
 .team_item h4 {
     text-transform: lowercase;
+    font-family: "Roboto", sans-serif;
 }
 
 
 .team_item .old_price {
     text-decoration: line-through;
     color: red;
+    font-size: 13px;
+    font-weight: 100;
 }
 
 
 .team_item .new_price {
     color: green;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:900;
 }
 
 
